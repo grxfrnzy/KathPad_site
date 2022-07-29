@@ -60,7 +60,7 @@ u2 li {
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 767px) {
   .wrap {
     flex-direction: column;
   }
@@ -142,7 +142,7 @@ ul li:hover {
 }
 
 /* switch to "responsive" nav bar for wider screens */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 767px) {
   nav {
     height: 40px;
     flex-direction: row;
